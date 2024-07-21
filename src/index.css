@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-ubuntu text-lg;
+}
+
+body {
+  @apply bg-[#364F60] min-h-screen lg:h-screen w-screen bg-cover bg-center bg-[url('https://w0.peakpx.com/wallpaper/159/815/HD-wallpaper-mira-bg-black-abstract-dark.jpg')];
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
